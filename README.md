@@ -143,3 +143,18 @@ Go to http://localhost:5173/ to see React project.
 - `../src/main.tsx`
 - `../src/App.tsx`
   - `useState`
+
+## Chat App
+
+- `app` folder
+  - `controllers`
+  - `models`
+- `ui` folder
+- `config/routes`
+
+---
+
+- `project`
+  - `FrontendCommands`
+  - `FrontendRunHook`
+- `build.sbt`
