@@ -8,9 +8,12 @@
   - [GitHub](https://github.com/Baeldung/scala-tutorials/tree/master/play-scala)
   - [GitHub - Introduction to the Play Framework in Scala by baeldung](https://github.com/Baeldung/scala-tutorials/tree/master/play-scala/introduction-to-play)
 
+NOTE: Best to edit the Play Framework code in IntelliJ
+
 #### Project Setup, Installation, and Command-line Tools
 
 ```properties
+# console
 cd ../playReactTutorial
 sbt new playframework/play-scala-seed.g8
 
@@ -95,3 +98,48 @@ The route consists of three parts. First, we specify the HTTP method. Next, we d
 Finally, we’re specifying the controller and which action should be used to handle the request. Note that we’re using the path variables as the parameters of the function.
 
 In the browser, when we open the following URL: http://localhost:9000/sum/5/15, we should see this page: The sum is 20!
+
+## React Tutorial
+
+Very similar React tutorial
+
+```properties
+# console
+cd ../playReactTutorial
+
+npx create-vite@latest
+
+Need to install the following packages:
+create-vite@8.3.0
+Ok to proceed? (y): y
+
+Project-name:
+
+◆  Select a framework:
+│  ○ React
+
+◆  Select a variant:
+│  ● TypeScript
+
+◆  Use Vite 8 beta (Experimental)?:
+│  ● No
+
+◆  Install with npm and start now?
+│  ● Yes / ○ No
+```
+
+This will also run `npm run dev`.
+If not:
+
+```properties
+cd vite-project
+npm run dev
+```
+
+Go to http://localhost:5173/ to see React project.
+
+#### Project Structure
+
+- `../src/main.tsx`
+- `../src/App.tsx`
+  - `useState`
